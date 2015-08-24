@@ -1,0 +1,29 @@
+/app/bootstrap.php.cache
+/app/cache/*
+!app/cache/.gitkeep
+/app/logs/*
+!app/logs/.gitkeep
+
+# Paramètres
+app/config/parameters.yml
+app/config/parameters.ini
+
+# Initier par Composer
+/app/bootstrap.php.cache
+/bin/
+/vendor/
+
+# Assets et media utilisateurs
+/web/bundles/
+
+# PHPUnit et tests
+/app/phpunit.xml
+/build/*/*
+
+# Composer PHAR
+/composer.phar
+
+# IDE
+.idea
+/nbproject
+framabag-admin.iml
